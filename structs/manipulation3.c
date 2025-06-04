@@ -30,4 +30,12 @@ int main() {
     strcpy(alunos[2].matricula, "2023003");
     strcpy(alunos[2].curso, "Sistemas de Informação");
     
+    // displaying the information of each student
+    printf("Informações dos Alunos:\n");
+    for (i = 0; i < 3; i++) {
+        printf("Nome: %s\n", alunos[i].nome);
+        printf("Idade: %d\n", alunos[i].idade);
+        printf("Matrícula: %s\n", alunos[i].matricula);
+        printf("Curso: %s\n\n", alunos[i].curso);
+    }
 }
