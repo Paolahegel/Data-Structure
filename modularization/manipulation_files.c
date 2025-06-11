@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int maic(){
+int main(){
     FILE *file; // ponteiro para o arquivo
     char nome[50];
     int idade;
